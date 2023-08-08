@@ -12,9 +12,9 @@
 # By default this script does nothing.
 
 #Activate virtual environment
-source /home/ubuntu/piracer_test/venv/bin/activate
+source /home/ubuntu/my_piracer/venv/bin/activate
 #Run init.py in background
-python3 /home/ubuntu/piracer_test/init.py &
+python3 /home/ubuntu/my_piracer/init.py &
 
 #Print the IP address
 _IP=$(hostname -I) || true

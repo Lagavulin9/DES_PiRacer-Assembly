@@ -35,5 +35,5 @@ If success, it would look something like this:
       Tasks: 1 (limit: 3933)
         CPU: 1.926s
      CGroup: /system.slice/rc-local.service
-             `-500 python3 /home/ubuntu/my_piracer/basic_example.py
+             `-500 python3 /home/ubuntu/my_piracer/init.py
 ```
